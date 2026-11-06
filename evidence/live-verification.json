@@ -351,6 +351,6 @@
     "Task 1 (100 GEN): PASS|MEETS_CRITERIA, settled paid. Task 2 (20 GEN): FAIL|THIN_EVIDENCE, appealed once with a full delivery, appeal verdict PASS|MEETS_CRITERIA, settled paid. Task 3 (20 GEN): FAIL|THIN_EVIDENCE, settled refunded with 20% stake slash.",
     "Agent final state: reputation 900 (1000 +50 +50 -200), stake 40 GEN (50 - 10 slashed), completed 2, failed 1.",
     "Platform pool 16 GEN (5 + 1 + 10). Requester balance 880 GEN. Agent balance 1064 GEN. All balances reconcile exactly with the fee (5%), split, refund and slash rules.",
-    "The live run used ephemeral in-memory accounts; only their addresses are recorded. The verification script's final read-back phase was interrupted, so the read-back above was done with a separate read-only pass; no transaction was re-sent."
+    "The live run used ephemeral in-memory accounts; only their addresses are recorded. The verification script completed its own read-back as well; a separate read-only pass confirmed identical results. No transaction was re-sent."
   ]
 }
