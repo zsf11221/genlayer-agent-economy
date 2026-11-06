@@ -7,7 +7,7 @@
 - Deploy transaction: `0xe96adf929f286f6357345ac28f7d673d599cc88c095fe464ec028253e17f1726`
 - Deployed source: `contracts/agent_stake_work.py`
 - Source SHA256: `9b7108c726c8b6f45d5d439aba96c7459d8da90f8ee6eac3cc724ce247c6c235`
-- Source commit: (filled in below after the first push; the deployed file is byte-identical to the file in this repository — see the SHA256 above)
+- Source commit: `ad58080f89bc31af581d5a8c731c601a93cc20ee` (the deployed file is byte-identical to the file in this repository — see the SHA256 above)
 - Runner: `py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6` (pinned; the network rejects the `latest`/`test` aliases)
 - Live actors (ephemeral script accounts, addresses only): requester `0x9EEa93e124fc9642472Ba72C3Ce7534D09658f29`, agent `0xF20b2829Cfd4daEb2d700365910e0394E3c5Cb9F`
 
